@@ -32,7 +32,7 @@ echo "##########################################################################
 echo "#"
 echo "#                                    > Nium-Heberg VPS <"
 echo "#"
-echo "#                           Copyright (C) 2024 - 2025, Nium-Heberg.fr"
+echo "#                           Copyright (C) 2024 - 2025, Nium-Heberg"
 echo "#"
 echo "#"
 echo "#######################################################################################"
@@ -136,3 +136,4 @@ fi
 --rootfs="${ROOTFS_DIR}" \
 -0 -w "/root" -b /dev -b /sys -b /proc -b /etc/resolv.conf --kill-on-exit \
 /bin/bash
+
